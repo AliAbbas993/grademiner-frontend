@@ -103,3 +103,8 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+// gpa tabs functionalty
+$('.gpa-sec .nav.nav-tabs .nav-item a.nav-link').on('click' , function(){
+    $(this).parents('.nav-item').siblings('.nav-item').children('.nav-link').removeClass('active');
+})

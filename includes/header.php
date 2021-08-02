@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <link rel="stylesheet" href="fonts/icomoon/style.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="./assets/style/css/owl.carousel.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./assets/style/css/bootstrap.min.css">
