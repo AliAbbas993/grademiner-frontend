@@ -1,0 +1,84 @@
+@media screen and (max-width: 991px) {
+  .gpa-sec .nav.nav-tabs .nav-item a.nav-link img {
+    width: 50px;
+  }
+  .gpa-sec .nav.nav-tabs .nav-item a.nav-link span {
+    font-size: 14px;
+  }
+  .clients-review-sec .col-md-12 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .index-banner-sec .content-block .hero-new__illustration {
+    display: none;
+  }
+  .index-banner-sec .price-calculator .form-group a {
+    width: 100%;
+  }
+  .gpa-sec .nav.nav-tabs .nav-item a.nav-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .gpa-sec .tab-content .tab-pane {
+    padding-left: 0;
+  }
+  .gpa-sec .tab-content .tab-pane h4 {
+    font-size: 30px;
+  }
+  .gpa-sec .tab-content .tab-pane p {
+    font-size: 16px;
+  }
+  .gpa-sec .why-regular-customer .wrc-descript h3 {
+    line-height: inherit;
+    font-size: 30px;
+  }
+  .clients-review-sec .review-listing-block ul li .review-box .customer-content p.customer-feedback-rating svg {
+    width: 30px;
+    margin: 10px 0;
+  }
+  .clients-review-sec .review-listing-block ul li .review-box .customer-content p.customer-feedback-rating span.feedback {
+    padding: 10px 15px;
+  }
+  .clients-review-sec .review-listing-block ul li .review-box .customer-content p.customer-feedback-rating span.rating {
+    font-size: 30px;
+  }
+  .clients-review-sec .review-listing-block ul li .review-box .customer-content p.customer-detail {
+    padding: 15px 0;
+  }
+  .clients-review-sec .review-listing-block ul li .review-box .our-content .reply-box p.our-reply {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .clients-review-sec .load-reviews button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .subscribe-sec .subscribe-title {
+    font-size: 30px;
+  }
+  .subscribe-sec .subscribe-content .subcribe-form form .form-row input {
+    margin-bottom: 10px;
+  }
+  .subscribe-sec .subscribe-content .subcribe-form form .form-row button {
+    padding: 5px 0;
+    margin: 10px auto;
+  }
+  .academic-goals-sec h3 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

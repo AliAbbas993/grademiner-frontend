@@ -108,3 +108,16 @@ function myFunction() {
 $('.gpa-sec .nav.nav-tabs .nav-item a.nav-link').on('click' , function(){
     $(this).parents('.nav-item').siblings('.nav-item').children('.nav-link').removeClass('active');
 })
+
+// var domPosition = $(window).scrollTop();
+
+// $(window).scroll(function() {
+// 	var domPosition = $(window).scrollTop();
+// 	var countOffset = Math.floor($('.privacy-animation').offset().top) - 100;
+// 	var counterList1 = $('.numbers-container');
+// 	console.log(domPosition , "current");
+// 	console.log(countOffset , "is target");
+// 	if(domPosition == countOffset) {
+// 		$('.numbers-container').scrollTo('.last-9');
+// 	}
+// });

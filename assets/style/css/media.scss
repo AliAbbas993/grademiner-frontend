@@ -1,0 +1,136 @@
+@media screen and (max-width: 991px) {
+    .gpa-sec{
+        .nav.nav-tabs{
+            .nav-item{
+                a.nav-link{
+                    img{
+                        width: 50px;
+                    }
+                    span{
+                        font-size: 14px;
+                    }
+                }
+            } 
+        }
+    }
+    .clients-review-sec{
+        .col-md-12{
+            flex-direction: column-reverse;;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .index-banner-sec{
+        .content-block{
+            .hero-new__illustration{
+                display: none;
+            }
+        }
+        .price-calculator{
+            .form-group{
+                a{
+                    width: 100%;
+                }
+            } 
+        } 
+    }
+    .gpa-sec{
+        .nav.nav-tabs{
+            .nav-item{
+                a.nav-link{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            } 
+        }
+        .tab-content{
+            .tab-pane{
+                padding-left: 0;
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .why-regular-customer{
+            .wrc-descript{
+                h3{
+                    line-height: inherit;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .clients-review-sec{
+        .review-listing-block{
+            ul{
+                li{
+                    .review-box{
+                        .customer-content{
+                            p.customer-feedback-rating{
+                                svg{
+                                    width: 30px;
+                                    margin: 10px 0;
+                                }
+                                span.feedback{
+                                    padding: 10px 15px;
+                                }
+                                span.rating{
+                                    font-size: 30px;
+                                }
+                            }
+                            p.customer-detail{
+                                padding: 15px 0;
+                            }
+                        }
+                        .our-content{
+                            .reply-box{
+                                p.our-reply{
+                                    font-size: 14px;
+                                    padding: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .clients-review-sec{
+        .load-reviews{
+            button{
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .subscribe-sec{
+        .subscribe-title{
+            font-size: 30px;
+        }
+        .subscribe-content{
+            .subcribe-form{
+                form{
+                    .form-row{
+                        input{
+                            margin-bottom: 10px;
+                        }
+                        button{
+                            padding: 5px 0;
+                            margin: 10px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .academic-goals-sec{
+        h3{
+            font-size: 30px;
+        }
+    }
+}
