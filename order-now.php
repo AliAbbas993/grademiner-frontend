@@ -1647,8 +1647,8 @@ input#file_upload {
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="order-head mb-50">
-                                <h2 class="heading-tile">Order Form</h2>
+                            <div class="order-head my-5">
+                                <h2 class="heading-tile text-center">Get your paper done by an expert in your field!</h2>
                             </div>
                         </div>
                         <div class="col-lg-8">

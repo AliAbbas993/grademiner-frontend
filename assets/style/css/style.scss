@@ -423,10 +423,12 @@ a {
 				position: relative;
 				float: left;
 				width: 100%;
-				
 				> a {
 					padding-left: 20px;
 					font-size: 20px;
+					text-align: center;
+					border-bottom: 1px solid #ffffff;
+					color: #ffffff;
 				}
 				> ul {
 					padding: 0;

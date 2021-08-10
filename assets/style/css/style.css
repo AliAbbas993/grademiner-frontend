@@ -568,6 +568,9 @@ a, a:hover {
 .header-block .site-mobile-menu .site-nav-wrap > li > a {
   padding-left: 20px;
   font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
 }
 
 .header-block .site-mobile-menu .site-nav-wrap > li > ul {
