@@ -678,7 +678,8 @@
         <div class="row">
             <div class="col-md-12 my-5 py-5">
                 <div class="grademiner-video">
-                    <iframe src="https://www.youtube.com/embed/D6wENoACYrA?autoplay=1" frameborder="0" class="w-100"></iframe>
+                    <iframe src="https://www.youtube.com/embed/MyTLosz6aHA?autoplay=0" frameborder="0" class="w-100"></iframe>
+                    <!-- <iframe src="https://www.youtube.com/embed/D6wENoACYrA?autoplay=1" frameborder="0" class="w-100"></iframe> -->
                     <img src="./assets/media/popcorn.png" alt="">
                 </div>
             </div>
