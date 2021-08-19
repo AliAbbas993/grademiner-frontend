@@ -121,3 +121,20 @@ $('.gpa-sec .nav.nav-tabs .nav-item a.nav-link').on('click' , function(){
 // 		$('.numbers-container').scrollTo('.last-9');
 // 	}
 // });
+
+$(document).ready(function(){
+	// $('.about-banner-slider ul').slick({
+	// 	vertical: true,
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	verticalSwiping: true,
+	// 	autoplay: true,
+	// 	speed: 500,
+	// 	arrows: true,
+	// 	prevArrow: '<div class="slick-prev"></div>',
+	// 	nextArrow: '<div class="slick-next"></div>',
+	// });
+
+	
+	
+});

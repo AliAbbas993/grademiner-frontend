@@ -1,5 +1,62 @@
 <?php include './includes/header.php';?>
-<section class="guarantee-sec">
+
+<section class="about-banner-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex flex-wrap justify-content-between">
+                <div class="col-lg-8">
+                    <div class="about-banner-slider">
+                        <ul class="list-unstyled m-0">
+                            <li>
+                                <div class="about-banner-content">
+                                    <div class="year">2021</div>
+                                    <div class="year-content">
+                                        <h3>Present Day</h3>
+                                        <p>GradeMiners is a huge marketplace for expert academic writers. Over 300 orders are completed per day in the high season.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="about-banner-content">
+                                    <div class="year">2020</div>
+                                    <div class="year-content">
+                                        <h3>Day One</h3>
+                                        <p>GradeMiners was founded in the US to help local and international students struggling to write academic papers.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="about-banner-content">
+                                    <div class="year">2019</div>
+                                    <div class="year-content">
+                                        <h3>Next Big Step</h3>
+                                        <p>We started to hire academic writers with degrees in various disciplines. We also launched 24/7 Customer Support.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="about-banner-content">
+                                    <div class="year">2018</div>
+                                    <div class="year-content">
+                                        <h3>First Milestone</h3>
+                                        <p>In just 3 years, we’ve been able to grow the customer base to 20K new clients and 2000 academic writers in 25+ subjects.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="about-banner-img">
+                        <img class="w-100" src="./assets/media/about-banner-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="guarantee-sec about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -49,6 +106,16 @@
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="promo-code-content">
+                    <p>Power up Your Academic Success with the Team of Professionals. We’ve Got Your Back. <br> <span>Promo Code: first15</span></p>
+                    <a href="javascript:(void)">Find Me a Pro</a>
                 </div>
             </div>
         </div>
@@ -202,4 +269,5 @@
         </div>
     </div>
 </section>
+
 <?php include './includes/footer.php';?>

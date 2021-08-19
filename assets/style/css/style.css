@@ -151,7 +151,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: relative;
 }
 
@@ -637,7 +637,7 @@ a, a:hover {
 }
 
 .index-banner-sec .content-block .title-content {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 45px;
   font-size: 34px;
   letter-spacing: .25px;
@@ -646,7 +646,7 @@ a, a:hover {
 }
 
 .index-banner-sec .content-block .subtitle-content {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 25px;
   font-size: 20px;
   letter-spacing: .25px;
@@ -720,7 +720,7 @@ a, a:hover {
 }
 
 .index-banner-sec .content-block .hero-new__illustration .chip__text {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 20px;
   letter-spacing: .285714px;
@@ -816,14 +816,14 @@ a, a:hover {
 
 .trust-rating-sec .rating-box h6 {
   width: 100%;
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   letter-spacing: .5px;
   color: #4b454d;
 }
 
 .trust-rating-sec .rating-box .rate-score p {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 48px;
   letter-spacing: .9375px;
@@ -833,6 +833,57 @@ a, a:hover {
 .guarantee-sec {
   background: #fafafb;
   padding: 30px 0 50px;
+}
+
+.guarantee-sec.about {
+  background: #62acb5;
+}
+
+.guarantee-sec.about h3 {
+  color: #ffffff;
+}
+
+.guarantee-sec.about .guarantee-block .guarantee-content h4, .guarantee-sec.about .guarantee-block .guarantee-content p {
+  color: #ffffff;
+}
+
+.guarantee-sec.about .promo-code-content {
+  padding: 15px 30px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.guarantee-sec.about .promo-code-content p {
+  margin: 15px 0;
+  width: calc(100% - 130px);
+  padding: 0 10px 0 0;
+  font-family: "Poppins", sans-serif;
+  line-height: normal;
+  font-size: 24px;
+  color: #191919;
+}
+
+.guarantee-sec.about .promo-code-content p span {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.guarantee-sec.about .promo-code-content a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #62acb5;
+  color: #ffffff;
+  border-radius: 7px;
+  width: 130px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .guarantee-sec h3 {
@@ -860,7 +911,7 @@ a, a:hover {
 }
 
 .guarantee-sec .guarantee-block .guarantee-content h4 {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 25px;
@@ -870,7 +921,7 @@ a, a:hover {
 }
 
 .guarantee-sec .guarantee-block .guarantee-content p {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 14px;
   letter-spacing: .25px;
@@ -943,7 +994,7 @@ a, a:hover {
 }
 
 .gpa-sec .nav.nav-tabs .nav-item a.nav-link span {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 25px;
   font-size: 19px;
@@ -963,7 +1014,7 @@ a, a:hover {
 }
 
 .gpa-sec .tab-content .tab-pane p {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 25px;
   font-size: 20px;
   letter-spacing: .44px;
@@ -978,7 +1029,7 @@ a, a:hover {
 }
 
 .gpa-sec .why-regular-customer .wrc-descript p {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 25px;
   font-size: 16px;
   letter-spacing: .44px;
@@ -1012,7 +1063,7 @@ a, a:hover {
 }
 
 .gpa-sec .why-regular-customer .wrc-feature-box .wrc-count-icon .wrc-count {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 36px;
   color: #000;
@@ -1026,7 +1077,7 @@ a, a:hover {
 }
 
 .gpa-sec .why-regular-customer .wrc-feature-box .wrc-feature-text {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 25px;
   font-size: 16px;
   letter-spacing: .4px;
@@ -1123,7 +1174,7 @@ a, a:hover {
 }
 
 .clients-review-sec .review-listing-block ul li .review-box .customer-content .customer-feedback-rating span.feedback {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   color: #191919;
   padding: 10px 15px;
@@ -1131,7 +1182,7 @@ a, a:hover {
 }
 
 .clients-review-sec .review-listing-block ul li .review-box .customer-content .customer-feedback-rating span.rating {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 30px;
   text-align: right;
@@ -1140,7 +1191,7 @@ a, a:hover {
 }
 
 .clients-review-sec .review-listing-block ul li .review-box .customer-content .customer-detail {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
@@ -1172,7 +1223,7 @@ a, a:hover {
 }
 
 .clients-review-sec .review-listing-block ul li .review-box .our-content .our-detail {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
   display: block;
@@ -1300,7 +1351,7 @@ a, a:hover {
 }
 
 .privacy-count-sec .privacy-content h3 {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 45px;
   font-size: 34px;
   letter-spacing: .25px;
@@ -1309,7 +1360,7 @@ a, a:hover {
 }
 
 .privacy-count-sec .privacy-content ul li .privacy-title {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 25px;
   font-size: 20px;
@@ -1319,7 +1370,7 @@ a, a:hover {
 }
 
 .privacy-count-sec .privacy-content ul li .privacy-content {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 14px;
   letter-spacing: .25px;
@@ -1333,7 +1384,7 @@ a, a:hover {
 }
 
 .quality-paper-sec .quality-paper-content h3 {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 60px;
   font-size: 34px;
   letter-spacing: .25px;
@@ -1341,7 +1392,7 @@ a, a:hover {
 }
 
 .quality-paper-sec .quality-paper-content p.content-descript {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 25px;
   font-size: 16px;
@@ -1349,7 +1400,7 @@ a, a:hover {
 }
 
 .quality-paper-sec .quality-paper-content ul li p.quality-feature-title {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 25px;
   font-size: 20px;
@@ -1359,7 +1410,7 @@ a, a:hover {
 }
 
 .quality-paper-sec .quality-paper-content ul li p.quality-feature-text {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 14px;
   letter-spacing: .25px;
@@ -1410,7 +1461,7 @@ a, a:hover {
 }
 
 .subscribe-sec .subscribe-title {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 45px;
   font-size: 48px;
   text-align: center;
@@ -1459,7 +1510,7 @@ a, a:hover {
 }
 
 .subscribe-sec .subscribe-content .subcribe-discount p span.discount-percent {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   letter-spacing: -.5px;
   color: #000;
@@ -1468,7 +1519,7 @@ a, a:hover {
 }
 
 .subscribe-sec .subscribe-content .subcribe-discount p span.discount-text {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   line-height: 29px;
   color: #000;
@@ -1518,7 +1569,7 @@ a, a:hover {
 }
 
 .academic-goals-sec h3 {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 60px;
   font-size: 48px;
   text-align: center;
@@ -1528,7 +1579,7 @@ a, a:hover {
 
 .academic-goals-sec .goals-content-block .goal-title {
   position: relative;
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 25px;
@@ -1543,7 +1594,7 @@ a, a:hover {
 .academic-goals-sec .goals-content-block p {
   display: block;
   padding-top: 15px;
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 14px;
   letter-spacing: .25px;
@@ -1552,7 +1603,7 @@ a, a:hover {
 
 .academic-goals-sec .goals-content-block ul li {
   display: block;
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 14px;
   letter-spacing: .25px;
@@ -1574,6 +1625,10 @@ a, a:hover {
 
 .academic-goals-sec .goals-content-block img.sleeping-img {
   max-width: 350px;
+}
+
+.academic-goals-sec .sleeping-img {
+  max-width: 100%;
 }
 
 .footer-top-block {
@@ -1648,7 +1703,7 @@ a, a:hover {
 
 .breadcrumb-sec ul li a {
   color: #4a4955;
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   font-size: 14px;
   letter-spacing: .25px;
@@ -1656,7 +1711,7 @@ a, a:hover {
 }
 
 .breadcrumb-sec ul li span {
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   line-height: 20px;
   font-size: 14px;
@@ -1673,7 +1728,7 @@ a, a:hover {
 }
 
 .blog-banner-sec .blog-search h3.blog-search-title {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 45px;
   font-size: 48px;
   letter-spacing: .25px;
@@ -1688,7 +1743,7 @@ a, a:hover {
   border: 1px solid #b6b4b6;
   height: 40px;
   line-height: 38px;
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: .25px;
   color: #979797;
@@ -1771,7 +1826,7 @@ a, a:hover {
   position: absolute;
   top: 0;
   left: -20px;
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: normal;
   font-size: 15px;
@@ -1803,7 +1858,7 @@ a, a:hover {
 }
 
 .blog-listing-sec ul li .blog-listing-single .blog-content-block h5 {
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
   color: #000;
@@ -1814,7 +1869,7 @@ a, a:hover {
 
 .blog-listing-sec ul li .blog-listing-single .blog-content-block p {
   margin: 15px 0;
-  font-family: Roboto,sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 25px;
   font-size: 16px;
   letter-spacing: .444444px;
@@ -1859,5 +1914,161 @@ a, a:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.about-banner-sec {
+  padding: 50px 0;
+  position: relative;
+}
+
+.about-banner-sec::before {
+  position: absolute;
+  content: '';
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fafafb), to(#62acb5));
+  background: linear-gradient(180deg, #fafafb 0, #62acb5 100%);
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 100%;
+  -webkit-transform: skew(0deg, -2deg);
+          transform: skew(0deg, -2deg);
+  z-index: -1;
+}
+
+.about-banner-sec .about-banner-slider {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide {
+  opacity: 0.3;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide .about-banner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide .about-banner-content .year {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  text-align: right;
+  color: #4a4955;
+  padding-right: 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide .about-banner-content .year-content {
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide .about-banner-content .year-content h3 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: .25px;
+  color: #4a4955;
+  margin-bottom: 10px;
+  line-height: 60px;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide .about-banner-content .year-content p {
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  font-size: 20px;
+  letter-spacing: .25px;
+  color: #4a4955;
+  font-weight: 300;
+  margin: 0;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide.slick-current.slick-active.slick-center {
+  opacity: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.about-banner-sec .about-banner-slider ul li.slick-slide.slick-current.slick-active.slick-center .about-banner-content .year-content {
+  visibility: visible;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.about-banner-sec .about-banner-slider ul.slick-dots {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px auto;
+}
+
+.about-banner-sec .about-banner-slider ul.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.about-banner-sec .about-banner-slider ul.slick-dots li button {
+  border: 0;
+  background: 0 0;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: 0;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.about-banner-sec .about-banner-slider ul.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  font-family: slick;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: #000;
+  opacity: .25;
+  background: #ffffff;
+  z-index: 9999999;
+  border-radius: 50px;
+}
+
+.about-banner-sec .about-banner-slider ul.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #b6b4b6;
 }
 /*# sourceMappingURL=style.css.map */

@@ -22,6 +22,9 @@
 
 $primary-yellow: #62acb5;
 $primary-grey: #4a4955;
+$poppins: 'Poppins', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
 ::-webkit-scrollbar-track{
     -webkit-box-shadow: inset 0 0 6px $primary-yellow;
     background-color: $primary-yellow;
@@ -37,7 +40,7 @@ $primary-grey: #4a4955;
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
 	position: relative;
 	&:before {
 		content: "";
@@ -492,7 +495,7 @@ a {
 	}
 	.content-block{
 		.title-content{
-			font-family: Poppins,sans-serif;
+			font-family: $poppins;
 			line-height: 45px;
 			font-size: 34px;
 			letter-spacing: .25px;
@@ -500,7 +503,7 @@ a {
 			margin-bottom: 10px;
 		}
 		.subtitle-content{
-			font-family: Roboto,sans-serif;
+			font-family: $roboto;
 			line-height: 25px;
 			font-size: 20px;
 			letter-spacing: .25px;
@@ -549,7 +552,7 @@ a {
 				animation-name:chip__animation-third;
 				animation-duration:2.3s}
 			.chip__text{
-				font-family:Roboto,sans-serif;
+				font-family:$roboto;
 				line-height:20px;
 				font-size:20px;
 				letter-spacing:.285714px;
@@ -635,14 +638,14 @@ a {
 		box-shadow: 0 10px 20px #d6d6d6, 0 2px 8px #d0d0d0;
 		h6{
 			width: 100%;
-			font-family: Roboto,sans-serif;
+			font-family: $roboto;
 			font-size: 16px;
 			letter-spacing: .5px;
 			color: #4b454d;
 		}
 		.rate-score{
 			p{
-				font-family: Poppins,sans-serif;
+				font-family: $poppins;
 				font-weight: 200;
 				font-size: 48px;
 				letter-spacing: .9375px;
@@ -654,6 +657,49 @@ a {
 .guarantee-sec{
 	background: #fafafb;
     padding: 30px 0 50px;
+	&.about{
+		background: $primary-yellow;
+		h3{
+			color: #ffffff;
+		}
+		.guarantee-block{
+			.guarantee-content{
+				h4 , p{
+					color: #ffffff;
+				}
+			}
+		}
+		.promo-code-content{
+			padding: 15px 30px;
+			background: #fff;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			p{
+				margin: 15px 0;
+				width: calc(100% - 130px);
+				padding: 0 10px 0 0;
+				font-family: $poppins;
+				line-height: normal;
+				font-size: 24px;
+				color: #191919;
+				span{
+					font-size: 14px;
+					color: #b3b3b3;
+				}
+			}
+			a{
+				display: inline-block;
+				padding: 10px 15px;
+				background: #62acb5;
+				color: #ffffff;
+				border-radius: 7px;
+				width: 130px;
+				font-size: 14px;
+				text-align: center;
+			}
+		}
+	}
 	h3{
 		line-height: 60px;
 		font-size: 48px;
@@ -680,7 +726,7 @@ a {
 		}
 		.guarantee-content{
 			h4{
-				font-family: Poppins,sans-serif;
+				font-family: $poppins;
 				font-style: normal;
 				font-weight: 500;
 				line-height: 25px;
@@ -689,7 +735,7 @@ a {
 				color: rgba(0,0,0,.9);
 			}
 			p{
-				font-family: Roboto,sans-serif;
+				font-family: $roboto;
 				line-height: 20px;
 				font-size: 14px;
 				letter-spacing: .25px;
@@ -749,7 +795,7 @@ a {
 					width: 100px;
 				}
 				span{
-					font-family: Poppins,sans-serif;
+					font-family: $poppins;
 					font-weight: 500;
 					line-height: 25px;
 					font-size: 19px;
@@ -769,7 +815,7 @@ a {
 				font-size: 48px;
 			}
 			p{
-				font-family: Roboto,sans-serif;
+				font-family: $roboto;
 				line-height: 25px;
 				font-size: 20px;
 				letter-spacing: .44px;
@@ -786,7 +832,7 @@ a {
 				padding-left: 15px;
 			}
 			p{
-				font-family: Roboto,sans-serif;
+				font-family: $roboto;
 				line-height: 25px;
 				font-size: 16px;
 				letter-spacing: .44px;
@@ -811,7 +857,7 @@ a {
 				border-bottom: 1px solid #eee;
 				margin: 0;
 				.wrc-count{
-					font-family: Poppins,sans-serif;
+					font-family: $poppins;
 					font-weight: 200;
 					font-size: 36px;
 					color: #000;
@@ -821,7 +867,7 @@ a {
 				}
 			}
 			.wrc-feature-text{
-				font-family: Roboto,sans-serif;
+				font-family: $roboto;
 				line-height: 25px;
 				font-size: 16px;
 				letter-spacing: .4px;
@@ -901,14 +947,14 @@ a {
                                 z-index: 0;
                             }
                             span.feedback{
-                                font-family: Poppins,sans-serif;
+                                font-family: $poppins;
                                 font-size: 18px;
                                 color: #191919;
                                 padding: 10px 15px;
                                 position: relative;
                             }
                             span.rating{
-                                font-family: Poppins,sans-serif;
+                                font-family: $poppins;
                                 font-weight: 300;
                                 font-size: 30px;
                                 text-align: right;
@@ -917,7 +963,7 @@ a {
                             }
                         }
                         .customer-detail{
-                            font-family: Roboto,sans-serif;
+                            font-family: $roboto;
                             line-height: 20px;
                             font-size: 14px;
                             color: rgba(0,0,0,.4);
@@ -945,7 +991,7 @@ a {
                             }
                         }
                         .our-detail{
-                            font-family: Roboto,sans-serif;
+                            font-family: $roboto;
                             font-size: 13px;
                             color: rgba(0,0,0,.4);
                             display: block;
@@ -1053,7 +1099,7 @@ a {
 	}
 	.privacy-content{
 		h3{
-			font-family: Poppins,sans-serif;
+			font-family: $poppins;
 			line-height: 45px;
 			font-size: 34px;
 			letter-spacing: .25px;
@@ -1063,7 +1109,7 @@ a {
 		ul{
 			li{
 				.privacy-title{
-					font-family: Poppins,sans-serif;
+					font-family: $poppins;
 					font-weight: 500;
 					line-height: 25px;
 					font-size: 20px;
@@ -1072,7 +1118,7 @@ a {
 					margin-bottom: 15px;
 				}
 				.privacy-content{
-					font-family: Roboto,sans-serif;
+					font-family: $roboto;
 					line-height: 20px;
 					font-size: 14px;
 					letter-spacing: .25px;
@@ -1088,14 +1134,14 @@ a {
 	background: $primary-grey;
 	.quality-paper-content{
 		h3{
-			font-family: Poppins,sans-serif;
+			font-family: $poppins;
 			line-height: 60px;
 			font-size: 34px;
 			letter-spacing: .25px;
 			color: #fff;
 		}
 		p.content-descript{
-			font-family: Roboto,sans-serif;
+			font-family: $roboto;
 			font-weight: 400;
 			line-height: 25px;
 			font-size: 16px;
@@ -1104,7 +1150,7 @@ a {
 		ul{
 			li{
 				p.quality-feature-title{
-					font-family: Poppins,sans-serif;
+					font-family: $poppins;
 					font-weight: 500;
 					line-height: 25px;
 					font-size: 20px;
@@ -1113,7 +1159,7 @@ a {
 					margin-bottom: 15px;
 				}
 				p.quality-feature-text{
-					font-family: Roboto,sans-serif;
+					font-family: $roboto;
 					line-height: 20px;
 					font-size: 14px;
 					letter-spacing: .25px;
@@ -1159,7 +1205,7 @@ a {
     text-align: center;
     background: $primary-grey;
 	.subscribe-title{
-		font-family: Poppins,sans-serif;
+		font-family: $poppins;
 		line-height: 45px;
 		font-size: 48px;
 		text-align: center;
@@ -1196,7 +1242,7 @@ a {
 				display: inline-flex;
 				flex-direction: column;
 				span.discount-percent{
-					font-family: Poppins,sans-serif;
+					font-family: $poppins;
 					font-size: 50px;
 					letter-spacing: -.5px;
 					color: #000;
@@ -1204,7 +1250,7 @@ a {
 					display: inline-block;
 				}
 				span.discount-text{
-					font-family: Poppins,sans-serif;
+					font-family: $poppins;
 					font-size: 24px;
 					line-height: 29px;
 					color: #000;
@@ -1244,7 +1290,7 @@ a {
 	padding: 50px 0;
     background: $primary-grey;
 	h3{
-		font-family: Poppins,sans-serif;
+		font-family: $poppins;
 		line-height: 60px;
 		font-size: 48px;
 		text-align: center;
@@ -1254,7 +1300,7 @@ a {
 	.goals-content-block{
 		.goal-title{
 			position: relative;
-			font-family: Poppins,sans-serif;
+			font-family: $poppins;
 			font-style: normal;
 			font-weight: 500;
 			line-height: 25px;
@@ -1268,7 +1314,7 @@ a {
 		p{
 			display: block;
 			padding-top: 15px;
-			font-family: Roboto,sans-serif;
+			font-family: $roboto;
 			line-height: 20px;
 			font-size: 14px;
 			letter-spacing: .25px;
@@ -1276,7 +1322,7 @@ a {
 		}
 		ul li{
 			display: block;
-			font-family: Roboto,sans-serif;
+			font-family: $roboto;
 			line-height: 20px;
 			font-size: 14px;
 			letter-spacing: .25px;
@@ -1297,6 +1343,9 @@ a {
 		img.sleeping-img{
 			max-width: 350px;
 		}
+	}
+	.sleeping-img{
+		max-width: 100%;
 	}
 }
 .footer-top-block{
@@ -1357,14 +1406,14 @@ a {
 		li{
 			a{
 				color: $primary-grey;
-				font-family: Roboto,sans-serif;
+				font-family: $roboto;
 				line-height: 20px;
 				font-size: 14px;
 				letter-spacing: .25px;
 				text-decoration: none;
 			}
 			span{
-				font-family: Roboto,sans-serif;
+				font-family: $roboto;
 				color: #000000;
 				line-height: 20px;
 				font-size: 14px;
@@ -1383,7 +1432,7 @@ a {
     z-index: 99;
 	.blog-search{
 		h3.blog-search-title{
-			font-family: Poppins,sans-serif;
+			font-family: $poppins;
 			line-height: 45px;
 			font-size: 48px;
 			letter-spacing: .25px;
@@ -1396,7 +1445,7 @@ a {
 					border: 1px solid #b6b4b6;
 					height: 40px;
 					line-height: 38px;
-					font-family: Roboto,sans-serif;
+					font-family: $roboto;
 					font-size: 14px;
 					letter-spacing: .25px;
 					color: #979797;
@@ -1467,7 +1516,7 @@ a {
 						position: absolute;
 						top: 0;
 						left: -20px;
-						font-family: Poppins,sans-serif;
+						font-family: $poppins;
 						font-weight: 500;
 						line-height: normal;
 						font-size: 15px;
@@ -1494,7 +1543,7 @@ a {
 					margin: 20px 0;
 					display: inline-block;
 					h5{
-						font-family: Poppins,sans-serif;
+						font-family: $poppins;
 						font-weight: 500;
 						font-size: 24px;
 						color: #000;
@@ -1504,7 +1553,7 @@ a {
 					}
 					p{
 						margin: 15px 0;
-						font-family: Roboto,sans-serif;
+						font-family: $roboto;
 						line-height: 25px;
 						font-size: 16px;
 						letter-spacing: .444444px;
@@ -1548,5 +1597,136 @@ a {
 	.blog-poster-img{
 		position: sticky;
 		top: 0;
+	}
+}
+
+.about-banner-sec{
+	padding: 50px 0;
+    // overflow: hidden;
+	position: relative;
+	&::before {
+		position: absolute;
+		content: '';
+		background: linear-gradient(180deg,#fafafb 0,#62acb5 100%);
+		bottom: -25px;
+		left: 0;
+		right: 0;
+		height: 250px;
+		width: 100%;
+		transform: skew(0deg , -2deg);
+		z-index: -1;
+	}
+	.about-banner-slider{
+		max-height: 350px;
+		overflow: hidden;
+		ul{
+			li.slick-slide{
+				opacity: 0.3;
+				transition: all .5s;
+				.about-banner-content{
+					display: flex;
+					align-items: start;
+					justify-content: flex-start;
+					margin-bottom: 30px;
+					.year{
+						font-family: $poppins;
+						font-weight: 300;
+						font-size: 60px;
+						text-align: right;
+						color: $primary-grey;
+						padding-right: 30px;
+						transition: .3s;
+					}
+					.year-content{
+						visibility: hidden;
+						transition: all 0.3s;
+						h3{
+							font-family: $poppins;
+							letter-spacing: .25px;
+							color: $primary-grey;
+							margin-bottom: 10px;
+							line-height: 60px;
+							font-size: 48px;
+							margin-bottom: 10px;
+						}
+						p{
+							font-family: $roboto;
+							line-height: 20px;
+							font-size: 20px;
+							letter-spacing: .25px;
+							color: $primary-grey;
+							font-weight: 300;
+							margin: 0;
+						}
+					}
+				}
+				&.slick-current.slick-active.slick-center{
+					opacity: 1;
+					transition: all .5s;
+					.about-banner-content{
+						.year-content{
+							visibility: visible;
+							transition: all 0.3s;
+						}
+					}
+				}
+			}
+		}
+		ul.slick-dots{
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 10px auto;
+			li{
+				position: relative;
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				margin: 0 5px;
+				padding: 0;
+				cursor: pointer;
+				button{
+					border: 0;
+					background: 0 0;
+					display: block;
+					height: 20px;
+					width: 20px;
+					outline: 0;
+					line-height: 0;
+					font-size: 0;
+					color: transparent;
+					padding: 5px;
+					cursor: pointer;
+					border-radius: 50px;
+					overflow: hidden;
+					&:before{
+						position: absolute;
+						top: 0;
+						left: 0;
+						content: "";
+						width: 10px;
+						height: 10px;
+						font-family: slick;
+						font-size: 10px;
+						line-height: 10px;
+						text-align: center;
+						color: #000;
+						opacity: .25;
+						background: #ffffff;
+						z-index: 9999999;
+						border-radius: 50px;
+					}
+				}
+				&.slick-active{
+					button{
+						&:before{
+							opacity: 1;
+							color: #b6b4b6;
+						}
+					}
+				}
+			}
+		}
 	}
 }

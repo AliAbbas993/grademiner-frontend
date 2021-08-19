@@ -14,6 +14,22 @@
   .blog-listing-sec .blog-poster-img {
     display: none;
   }
+  .about-banner-sec {
+    padding: 0 0 50px;
+  }
+  .about-banner-sec .col-md-12 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .about-banner-sec .col-md-12 .about-banner-img {
+    text-align: center;
+  }
+  .about-banner-sec .col-md-12 .about-banner-img img {
+    max-width: 350px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -79,6 +95,51 @@
   .blog-banner-sec .col-md-12 .blog-search .blog-search-form {
     margin-top: 30px;
   }
+  .about-banner-sec .about-banner-slider ul.slick-slider .slick-list .about-banner-content {
+    text-align: center;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px #c2c2c2;
+            box-shadow: 0 0 10px #c2c2c2;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 15px;
+    height: 100%;
+    min-height: 300px;
+    margin: 10px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .about-banner-sec .about-banner-slider ul.slick-slider .slick-list .about-banner-content .year {
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+    padding: 0;
+    text-align: center;
+  }
+  .about-banner-sec .about-banner-slider ul.slick-slider .slick-list .about-banner-content .year-content {
+    display: inline-block;
+    width: 100%;
+  }
+  .about-banner-sec .about-banner-slider ul.slick-slider .slick-list .about-banner-content .year-content h3 {
+    line-height: 18px;
+    font-size: 18px;
+  }
+  .about-banner-sec .about-banner-slider ul.slick-slider .slick-list .about-banner-content .year-content p {
+    line-height: 14px;
+    font-size: 14px;
+  }
+  .guarantee-sec.about .promo-code-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .guarantee-sec.about .promo-code-content p {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -133,6 +194,10 @@
   }
   .blog-listing-sec ul li .blog-listing-single .author-meta p {
     font-size: 14px;
+  }
+  .guarantee-sec.about .promo-code-content p {
+    text-align: center;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=media.css.map */
