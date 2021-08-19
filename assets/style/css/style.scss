@@ -1319,8 +1319,8 @@ a {
 			content: '';
 			height: 800px;
 			width: 800px;
-			background: $primary-yellow;
-			box-shadow: 0 0 10px #adadad;
+			background: #e1e1e1;
+			box-shadow: 0 0 10px $primary-yellow inset;
 			transform: rotate(45deg);
 			border-radius: 10px;
 			right: 50%;
@@ -1348,5 +1348,205 @@ a {
 				background: #22b9cc;
 			}
 		}
+	}
+}
+
+.breadcrumb-sec{
+	padding-top: 30px;
+	ul{
+		li{
+			a{
+				color: $primary-grey;
+				font-family: Roboto,sans-serif;
+				line-height: 20px;
+				font-size: 14px;
+				letter-spacing: .25px;
+				text-decoration: none;
+			}
+			span{
+				font-family: Roboto,sans-serif;
+				color: #000000;
+				line-height: 20px;
+				font-size: 14px;
+				letter-spacing: .25px;
+				text-decoration: none;
+				margin-left: 5px;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+.blog-banner-sec{
+	padding: 50px 0;
+	position: relative;
+    z-index: 99;
+	.blog-search{
+		h3.blog-search-title{
+			font-family: Poppins,sans-serif;
+			line-height: 45px;
+			font-size: 48px;
+			letter-spacing: .25px;
+			color: #191919;
+		}
+		.blog-search-form{
+			margin-top: 50px;
+			form{
+				input{
+					border: 1px solid #b6b4b6;
+					height: 40px;
+					line-height: 38px;
+					font-family: Roboto,sans-serif;
+					font-size: 14px;
+					letter-spacing: .25px;
+					color: #979797;
+					padding: 0 15px;
+					max-width: 400px;
+					width: calc(100% - 40px);
+				}
+				button{
+					border-radius: 4px;
+					width: 40px;
+					height: 40px;
+					border: none;
+					line-height: 40px;
+					margin-left: 20px;
+					background-color: #fa0;
+					background-repeat: no-repeat;
+					background-position: center;
+					cursor: pointer;
+					color: #fff;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					svg{
+						width: 15px;
+						height: 15px;
+					}
+				}
+			}
+		}
+	}
+	.blog-banner-img{
+		img{
+			max-width: 100%;
+		}
+	}
+}
+.blog-listing-sec{
+	padding: 50px 0 100px;
+	// background: linear-gradient(180deg,#fafafb 0,#fafafb 100%);
+	background: $primary-grey;
+	position: relative;
+	&::before {
+		position: absolute;
+		content: '';
+		background: #fafafb;
+		top: -150px;
+		left: 0;
+		right: 0;
+		height: 500px;
+		width: 100%;
+		transform: skew(0deg , -2deg);
+		z-index: 0;
+	}
+	ul{
+		li{
+			.blog-listing-single{
+				padding: 0 20px 20px;
+				background: #ffffff;
+				box-shadow: 0 0 10px #cacaca;
+				border-radius: 7px;
+				.blog-meta{
+					position: relative;
+					align-items: center;
+					padding-left: 70px;
+					height: 35px;
+					.blog-label{
+						background: $primary-grey;
+						position: absolute;
+						top: 0;
+						left: -20px;
+						font-family: Poppins,sans-serif;
+						font-weight: 500;
+						line-height: normal;
+						font-size: 15px;
+						text-align: center;
+						letter-spacing: .857143px;
+						color: #fff;
+						padding: 8px 15px;
+					}
+					&>span{
+						width: 80px;
+						padding: 0 5px;
+						color: $primary-grey;
+						svg{
+							width: 15px;
+							margin-right: 10px;
+							path{
+								fill: $primary-yellow;
+							}
+						}
+					}
+				}
+				.blog-content-block{
+					padding: 0 15px;
+					margin: 20px 0;
+					display: inline-block;
+					h5{
+						font-family: Poppins,sans-serif;
+						font-weight: 500;
+						font-size: 24px;
+						color: #000;
+						text-decoration: none;
+						margin: 0;
+						display: inline-block;
+					}
+					p{
+						margin: 15px 0;
+						font-family: Roboto,sans-serif;
+						line-height: 25px;
+						font-size: 16px;
+						letter-spacing: .444444px;
+						color: #000;
+						overflow: hidden;
+						display: -webkit-box;
+						-webkit-line-clamp: 3;
+						-webkit-box-orient: vertical;
+					}
+					a{
+						padding: 10px 15px;
+						text-transform: capitalize;
+						background: $primary-yellow;
+						color: #ffffff;
+						border-color: $primary-yellow;
+						display: inline-block;
+						border-radius: 5px;
+					}
+				}
+				.author-meta{
+					padding: 20px 15px;
+					border-top: 1px solid #dbdbdb;
+					p{
+						a{
+							text-decoration: none;
+							color: $primary-grey;
+							&:hover{
+								color: $primary-yellow;
+							}
+						}
+						span{
+							color: $primary-grey;
+							font-weight: 600;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.blog-poster-img{
+		position: sticky;
+		top: 0;
 	}
 }

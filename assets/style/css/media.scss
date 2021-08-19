@@ -18,6 +18,11 @@
             flex-direction: column-reverse;;
         }
     }
+    .blog-listing-sec{
+        .blog-poster-img{
+            display: none;
+        }
+    }
 }
 @media screen and (max-width: 767px) {
     .index-banner-sec{
@@ -106,6 +111,17 @@
             }
         }
     }
+    .blog-banner-sec .col-md-12{
+        flex-direction: column-reverse;
+        .blog-search{
+            h3.blog-search-title{
+                font-size: 30px;
+            }
+            .blog-search-form{
+                margin-top: 30px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 575px) {
     .subscribe-sec{
@@ -131,6 +147,59 @@
     .academic-goals-sec{
         h3{
             font-size: 30px;
+        }
+    }
+    .blog-banner-sec{
+        .blog-search{
+            .blog-search-form{
+                form{
+                    input{
+                        max-width: calc(100% - 40px);
+                    }
+                }
+            }
+        }
+    }
+    .blog-listing-sec{
+        ul{
+            li{
+                .blog-listing-single{
+                    padding: 0 10px 10px;
+                    .blog-meta{
+                        padding-left: 50px;
+                        .blog-label{
+                            padding: 8px;
+                            max-width: 60px;
+                            font-size: 12px;
+                            left: -10px;
+                        }
+                        &> span{
+                            font-size: 14px;
+                        }
+                    }
+                    .blog-content-block{
+                        padding: 0 7px;
+                        h5{
+                            font-size: 18px;
+                        }
+                        p{
+                            font-size: 14px;
+                            margin: 10px 0;
+                        }
+                        a{
+                            padding: 7px 10px;
+                            border-radius: 4px;
+                            font-size: 13px;
+                        }
+                    }
+                    .author-meta{
+                        padding: 15px 7px;
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

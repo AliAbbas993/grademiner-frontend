@@ -11,6 +11,9 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .blog-listing-sec .blog-poster-img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -64,6 +67,18 @@
   .clients-review-sec .load-reviews button {
     font-size: 14px;
   }
+  .blog-banner-sec .col-md-12 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog-banner-sec .col-md-12 .blog-search h3.blog-search-title {
+    font-size: 30px;
+  }
+  .blog-banner-sec .col-md-12 .blog-search .blog-search-form {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -79,6 +94,45 @@
   }
   .academic-goals-sec h3 {
     font-size: 30px;
+  }
+  .blog-banner-sec .blog-search .blog-search-form form input {
+    max-width: calc(100% - 40px);
+  }
+  .blog-listing-sec ul li .blog-listing-single {
+    padding: 0 10px 10px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .blog-meta {
+    padding-left: 50px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .blog-meta .blog-label {
+    padding: 8px;
+    max-width: 60px;
+    font-size: 12px;
+    left: -10px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .blog-meta > span {
+    font-size: 14px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .blog-content-block {
+    padding: 0 7px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .blog-content-block h5 {
+    font-size: 18px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .blog-content-block p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .blog-listing-sec ul li .blog-listing-single .blog-content-block a {
+    padding: 7px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .author-meta {
+    padding: 15px 7px;
+  }
+  .blog-listing-sec ul li .blog-listing-single .author-meta p {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=media.css.map */
