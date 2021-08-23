@@ -272,4 +272,30 @@
             }
         }
     }
+    .service-feature-sec{
+        .service-feature-single{
+            img{
+                max-width: 250px;
+            }
+        }
+    }
+    .circle-percent-sec{
+        .content-block{
+            h3{
+                font-size: 36px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .circle-block{
+            .percent-content{
+                max-width: 140px;
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }

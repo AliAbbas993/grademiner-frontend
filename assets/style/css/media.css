@@ -199,5 +199,21 @@
     text-align: center;
     font-size: 18px;
   }
+  .service-feature-sec .service-feature-single img {
+    max-width: 250px;
+  }
+  .circle-percent-sec .content-block h3 {
+    font-size: 36px;
+  }
+  .circle-percent-sec .content-block p {
+    font-size: 16px;
+  }
+  .circle-percent-sec .circle-block .percent-content {
+    max-width: 140px;
+  }
+  .circle-percent-sec .circle-block .percent-content p {
+    font-weight: 400;
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=media.css.map */

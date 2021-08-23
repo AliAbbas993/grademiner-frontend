@@ -1482,6 +1482,7 @@ a {
 		}
 	}
 }
+
 .blog-listing-sec{
 	padding: 50px 0 100px;
 	// background: linear-gradient(180deg,#fafafb 0,#fafafb 100%);
@@ -1591,6 +1592,125 @@ a {
 						}
 					}
 				}
+			}
+		}
+	}
+	.blog-poster-img{
+		position: sticky;
+		top: 0;
+	}
+}
+
+.blog-detail-sec{
+	padding: 50px 0 100px;
+	// background: linear-gradient(180deg,#fafafb 0,#fafafb 100%);
+	background: $primary-grey;
+	position: relative;
+	.blog-detail{
+		padding: 0 20px 20px;
+		background: #ffffff;
+		box-shadow: 0 0 10px #cacaca;
+		border-radius: 7px;
+		.blog-meta{
+			position: relative;
+			align-items: center;
+			height: 35px;
+			.blog-label{
+				background: $primary-grey;
+				position: absolute;
+				top: 0;
+				left: -20px;
+				font-family: $poppins;
+				font-weight: 500;
+				line-height: normal;
+				font-size: 15px;
+				text-align: center;
+				letter-spacing: .857143px;
+				color: #fff;
+				padding: 8px 15px;
+			}
+			&>span{
+				width: 80px;
+				padding: 0 5px;
+				color: $primary-grey;
+				svg{
+					width: 15px;
+					margin-right: 10px;
+					path{
+						fill: $primary-yellow;
+					}
+				}
+			}
+		}
+		.blog-title{
+			h1{
+				font-size: 30px;
+				margin: 15px auto;
+			}
+		}
+		.blog-detail-content{
+			padding: 0 15px;
+			margin: 20px 0;
+			display: inline-block;
+			h5{
+				font-family: $poppins;
+				font-weight: 500;
+				font-size: 24px;
+				color: $primary-grey;
+				margin: 10px auto;
+				display: inline-block;
+			}
+			p{
+				margin: 15px 0;
+				font-family: $roboto;
+				font-size: 16px;
+				color: $primary-grey;
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+			}
+			a{
+				text-transform: capitalize;
+				color: $primary-yellow;
+				display: inline-block;
+			}
+		}
+		.author-meta{
+			padding: 10px 0;
+			border-top: 1px solid #dbdbdb;
+			p{
+				font-size: 14px;
+				img{
+					max-width: 35px;
+					box-shadow: 0 0 10px #ececec;
+					border-radius: 50%;
+					object-fit: contain;
+				}
+				a{
+					text-decoration: none;
+					color: $primary-grey;
+					&:hover{
+						color: $primary-yellow;
+					}
+				}
+				span{
+					color: $primary-grey;
+					font-weight: 600;
+					font-size: 13px;
+				}
+			}
+		}
+		p.order-btn{
+			a{
+				display: inline-block;
+				margin: 15px auto;
+				padding: 15px;
+				font-weight: 400;
+				font-size: 18px;
+				background: #62acb5;
+				border-radius: 5px;
+				color: #ffffff;
 			}
 		}
 	}
@@ -1726,6 +1846,134 @@ a {
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+.service-feature-sec{
+	padding: 50px 0 100px;
+	background: $primary-grey;
+	position: relative;
+	&::before {
+		position: absolute;
+		content: '';
+		background: $primary-grey;
+		top: -25px;
+		left: 0;
+		right: 0;
+		height: 50px;
+		width: 100%;
+		transform: skew(0deg , -2deg);
+		z-index: 99;
+	}
+	&::after {
+		position: absolute;
+		content: '';
+		background: $primary-grey;
+		bottom: -25px;
+		left: 0;
+		right: 0;
+		height: 50px;
+		width: 100%;
+		transform: skew(0deg , -2deg);
+		z-index: 99;
+	}
+	.service-feature-single{
+		img{
+			max-width: 300px;
+			margin: 0 auto;
+		}
+		h4{
+			display: inline-block;
+			width: 100%;
+			margin: 15px auto;
+			color: #ffffff;
+		}
+		p{
+			width: 100%;
+			color: #ffffff;
+			font-size: 15px;
+		}
+	}
+	p.order-btn{
+		a{
+			display: inline-block;
+			margin: 15px auto;
+			padding: 15px;
+			font-weight: 400;
+			font-size: 18px;
+			background: #62acb5;
+			border-radius: 5px;
+			color: #ffffff;
+		}
+	}
+}
+
+.circle-percent-sec{
+	padding: 50px 0 100px;
+	background: #ffffff;
+	position: relative;
+	&::after {
+		position: absolute;
+		content: '';
+		background: $primary-yellow;
+		bottom: -25px;
+		left: 0;
+		right: 0;
+		height: 50px;
+		width: 100%;
+		transform: skew(0deg , -2deg);
+		z-index: 99;
+	}
+	.content-block{
+		h3{
+			font-size: 50px;
+			color: $primary-grey;
+		}
+		p{
+			font-size: 18px;
+			color: $primary-grey;
+		}
+	}
+	.circle-block{
+		position: relative;
+		img{
+			max-width: 100%;
+			object-fit: contain;
+		}
+		.percent-content{
+			display: inline-block;
+			max-width: 200px;
+			position: absolute;
+			color: $primary-grey;
+			span.percent{
+				font-size: 30px;
+			}
+			p{
+				font-size: 18px;
+				color: $primary-grey;
+				font-weight: 600;
+			}
+			&.percent-lt{
+				top: 0;
+				left: 0;
+				color: $primary-yellow;
+				p{
+					color: $primary-yellow;
+				}
+			}
+			&.percent-rt{
+				top: 0;
+				right: 0;
+			}
+			&.percent-lb{
+				bottom: 0;
+				left: 0;
+			}
+			&.percent-rb{
+				bottom: 0;
+				right: 0;
 			}
 		}
 	}
