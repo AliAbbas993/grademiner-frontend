@@ -1913,7 +1913,7 @@ a, a:hover {
 .blog-listing-sec .blog-poster-img {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 70px;
 }
 
 .blog-detail-sec {
@@ -2052,7 +2052,7 @@ a, a:hover {
 .blog-detail-sec .blog-poster-img {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 70px;
 }
 
 .about-banner-sec {
