@@ -215,5 +215,8 @@
     font-weight: 400;
     font-size: 16px;
   }
+  .footer-top-block .top-block-content {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=media.css.map */

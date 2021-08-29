@@ -1268,86 +1268,60 @@ a, a:hover {
   position: relative;
 }
 
-.privacy-count-sec .privacy-animation .caret-left {
-  position: absolute;
-  z-index: 999;
-  left: -5px;
-  top: calc(50% - 20px);
-}
-
-.privacy-count-sec .privacy-animation .caret-left svg path {
-  fill: #62acb5;
-}
-
-.privacy-count-sec .privacy-animation .caret-right {
-  position: absolute;
-  z-index: 999;
-  right: -5px;
-  top: calc(50% - 20px);
-}
-
-.privacy-count-sec .privacy-animation .caret-right svg path {
-  fill: #62acb5;
-}
-
-.privacy-count-sec .privacy-animation .security-ill {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  height: 100%;
-  border: 10px solid #434343;
-  border-radius: 15px;
-  background: #434343;
-  -webkit-box-shadow: 0 0 30px #ffffff inset;
-          box-shadow: 0 0 30px #ffffff inset;
-}
-
-.privacy-count-sec .privacy-animation .security-ill .numbers {
-  width: 20%;
-  text-align: center;
+.privacy-count-sec .privacy-animation .GaugeMeter {
+  position: Relative;
+  text-align: Center;
+  cursor: Default;
+  display: inline-block;
+  width: 100% !important;
   height: 100%;
 }
 
-.privacy-count-sec .privacy-animation .security-ill .numbers .numbers-container {
-  background: #494854;
-  -webkit-box-shadow: 0 0 10px #000000 inset;
-          box-shadow: 0 0 10px #000000 inset;
-  overflow: hidden;
-  height: 100%;
+.privacy-count-sec .privacy-animation .GaugeMeter span, .privacy-count-sec .privacy-animation .GaugeMeter b {
+  width: 54%;
+  position: Absolute;
+  text-align: Center;
+  display: Inline-Block;
+  color: RGBa(0, 0, 0, 0.8);
+  font-weight: 100;
+  font-family: "Open Sans",Arial;
+  overflow: Hidden;
+  white-space: NoWrap;
+  text-overflow: Ellipsis;
+  margin: 0 23%;
 }
 
-.privacy-count-sec .privacy-animation .security-ill .numbers .numbers-container .number {
-  font-size: 30px;
-  color: #fff;
-  font-weight: 700;
-  height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
+.privacy-count-sec .privacy-animation .GaugeMeter span {
+  opacity: 1;
+  width: 100% !important;
+  margin: 0 auto !important;
+  height: 100% !important;
+  color: #ffffff !important;
+  font-size: 24px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
-.privacy-count-sec .privacy-animation .security-ill .numbers .numbers-container .number:before {
-  position: absolute;
-  content: '';
-  bottom: 0px;
-  height: 5px;
-  width: 100%;
-  border-radius: 10px;
-  left: 0;
-  right: 0;
-  background: #2e2d35;
-  -webkit-box-shadow: 0 0 10px #868383 inset;
-          box-shadow: 0 0 10px #868383 inset;
+.privacy-count-sec .privacy-animation .GaugeMeter span u {
+  text-decoration: none;
+}
+
+.privacy-count-sec .privacy-animation .GaugeMeter b {
+  display: none;
+}
+
+.privacy-count-sec .privacy-animation .GaugeMeter canvas {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .privacy-count-sec .privacy-content h3 {
@@ -1695,6 +1669,91 @@ a, a:hover {
 
 .footer-top-block .top-block-content a:hover {
   background: #22b9cc;
+}
+
+footer {
+  background: #4a4955;
+  padding: 50px 0 0;
+}
+
+footer .foot-descript {
+  padding-right: 50px;
+}
+
+footer .foot-descript p {
+  color: #ececec;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+footer .foot-descript p b {
+  color: #ffffff;
+}
+
+footer .foot-links h3 {
+  font-size: 20px;
+  color: #000000;
+  background: #62acb5;
+  padding: 5px 7px;
+}
+
+footer .foot-links ul li {
+  margin: 0 0 15px;
+}
+
+footer .foot-links ul li a {
+  color: #62acb5;
+}
+
+footer .social-links h3 {
+  font-size: 20px;
+  color: #000000;
+  background: #62acb5;
+  padding: 5px 7px;
+}
+
+footer .social-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social-links ul li {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  background: #000;
+  border: 1px solid;
+}
+
+footer .social-links ul li a {
+  color: #62acb5;
+}
+
+footer .extra-links {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px;
+  background: #62acb5;
+  width: 100%;
+}
+
+footer .extra-links ul li a {
+  color: #000;
+  text-decoration: underline !important;
+  font-size: 14px;
+}
+
+footer .copy-right {
+  width: 100%;
+  background: #000;
+}
+
+footer .copy-right p {
+  color: #62acb5;
+  margin: 0;
+  padding: 10px;
+  font-size: 12px;
 }
 
 .breadcrumb-sec {

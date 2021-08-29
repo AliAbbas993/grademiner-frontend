@@ -536,72 +536,65 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-flex flex-wrap justify-content-between">
-                <div class="col-lg-6 my-3">
+                <div class="col-lg-6 my-3 d-flex flex-wrap align-items-center justify-content-between">
                     <div class="privacy-animation">
-                        <span class="caret-left">
+                        <!-- <span class="caret-left">
                             <svg width="40px" height="40px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-right fa-w-6 fa-3x"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z" class=""></path></svg>
                         </span>
                         <div class="security-ill">
-                            <div class="numbers">
-                                <div class="numbers-container">
-                                    <div class="number">0</div>
-                                    <div class="number">1</div>
-                                    <div class="number">2</div>
-                                    <div class="number">3</div>
-                                    <div class="number">4</div>
-                                    <div class="number">5</div>
-                                    <div class="number">6</div>
-                                    <div class="number">7</div>
-                                    <div class="number">8</div>
-                                    <div class="number last-9">9</div>
-                                </div>
+                            <div class="numbers-container">
+                                <div class="number">0</div>
+                                <div class="number">1</div>
+                                <div class="number">2</div>
+                                <div class="number">3</div>
+                                <div class="number">4</div>
+                                <div class="number">5</div>
+                                <div class="number">6</div>
+                                <div class="number">7</div>
+                                <div class="number">8</div>
+                                <div class="number last-9">9</div>
                             </div>
-                            <div class="numbers">
-                                <div class="numbers-container">
-                                    <div class="number">0</div>
-                                    <div class="number">1</div>
-                                    <div class="number">2</div>
-                                    <div class="number">3</div>
-                                    <div class="number">4</div>
-                                    <div class="number">5</div>
-                                    <div class="number">6</div>
-                                    <div class="number">7</div>
-                                    <div class="number">8</div>
-                                    <div class="number last-9">9</div>
-                                </div>
+                            <div class="numbers-container">
+                                <div class="number">0</div>
+                                <div class="number">1</div>
+                                <div class="number">2</div>
+                                <div class="number">3</div>
+                                <div class="number">4</div>
+                                <div class="number">5</div>
+                                <div class="number">6</div>
+                                <div class="number">7</div>
+                                <div class="number">8</div>
+                                <div class="number last-9">9</div>
                             </div>
-                            <div class="numbers">
-                                <div class="numbers-container">                                    
-                                    <div class="number">0</div>
-                                    <div class="number">1</div>
-                                    <div class="number">2</div>
-                                    <div class="number">3</div>
-                                    <div class="number">4</div>
-                                    <div class="number">5</div>
-                                    <div class="number">6</div>
-                                    <div class="number">7</div>
-                                    <div class="number">8</div>
-                                    <div class="number last-9">9</div>
-                                </div>
+                            <div class="numbers-container">                                    
+                                <div class="number">0</div>
+                                <div class="number">1</div>
+                                <div class="number">2</div>
+                                <div class="number">3</div>
+                                <div class="number">4</div>
+                                <div class="number">5</div>
+                                <div class="number">6</div>
+                                <div class="number">7</div>
+                                <div class="number">8</div>
+                                <div class="number last-9">9</div>
                             </div>
-                            <div class="numbers">
-                                <div class="numbers-container">
-                                    <div class="number">0</div>
-                                    <div class="number">1</div>
-                                    <div class="number">2</div>
-                                    <div class="number">3</div>
-                                    <div class="number">4</div>
-                                    <div class="number">5</div>
-                                    <div class="number">6</div>
-                                    <div class="number">7</div>
-                                    <div class="number">8</div>
-                                    <div class="number last-9">9</div>
-                                </div>
+                            <div class="numbers-container">
+                                <div class="number">0</div>
+                                <div class="number">1</div>
+                                <div class="number">2</div>
+                                <div class="number">3</div>
+                                <div class="number">4</div>
+                                <div class="number">5</div>
+                                <div class="number">6</div>
+                                <div class="number">7</div>
+                                <div class="number">8</div>
+                                <div class="number last-9">9</div>
                             </div>
                         </div>
                         <span class="caret-right">
                             <svg width="40px" height="40px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-left fa-w-6 fa-3x"><path d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z" class=""></path></svg>
-                        </span>        
+                        </span>         -->
+                        <div class="GaugeMeter" data-percent="100" data-width="15" data-stripe="2" data-append="%"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 my-3">
